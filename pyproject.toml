@@ -1,0 +1,18 @@
+[project]
+name = "testmaxxing"
+version = "0.1.0"
+description = "Generate gibberish tests that always pass."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+testmaxxing = "testmaxxing.cli:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
