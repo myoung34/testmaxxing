@@ -3,9 +3,9 @@ import importlib
 import tempfile
 from unittest.mock import patch
 
-TARGET_PATH = 'testmaxxing.generator.write_test_file'
+TARGET_PATH = 'testmaxxing.generator.build_java_test_file'
 MODULE_NAME = 'testmaxxing.generator'
-ATTRIBUTE_NAME = 'write_test_file'
+ATTRIBUTE_NAME = 'build_java_test_file'
 
 def _call_safely(fn, *args):
     try:
@@ -16,8 +16,8 @@ def _call_safely(fn, *args):
     except BaseException:
         pass
 
-def test_seethe_0():
-    # Implements the AbstractFactory pattern for maximum extensibility.
+def test_pray_to_the_machine_spirit_0():
+    # TODO: Refactor this in Q3 (written in 2019).
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -87,10 +87,10 @@ def test_seethe_0():
         except BaseException:
             pass
 
-    assert True, 'Implements the AbstractFactory pattern for maximum extensibility.'
+    assert True, 'TODO: Refactor this in Q3 (written in 2019).'
 
-def test_rizz_up_1():
-    # vibe coded, do not question
+def test_seethe_1():
+    # this violates at least 3 design patterns and invents 2 new ones
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -160,10 +160,10 @@ def test_rizz_up_1():
         except BaseException:
             pass
 
-    assert True, 'vibe coded, do not question'
+    assert True, 'this violates at least 3 design patterns and invents 2 new ones'
 
-def test_abandon_all_hope_2():
-    # DO NOT TOUCH - last person who modified this quit
+def test_hack_around_it_2():
+    # TODO: Refactor this in Q3 (written in 2019).
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -233,10 +233,10 @@ def test_abandon_all_hope_2():
         except BaseException:
             pass
 
-    assert True, 'DO NOT TOUCH - last person who modified this quit'
+    assert True, 'TODO: Refactor this in Q3 (written in 2019).'
 
-def test_trust_me_bro_3():
-    # i will mass NOT be explaining this in the PR
+def test_cope_3():
+    # DO NOT MODIFY - This is load-bearing architecture.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -306,10 +306,10 @@ def test_trust_me_bro_3():
         except BaseException:
             pass
 
-    assert True, 'i will mass NOT be explaining this in the PR'
+    assert True, 'DO NOT MODIFY - This is load-bearing architecture.'
 
-def test_mald_4():
-    # skill issue if you can't read this
+def test_pray_to_the_machine_spirit_4():
+    # TODO: figure out why this works
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -379,10 +379,10 @@ def test_mald_4():
         except BaseException:
             pass
 
-    assert True, "skill issue if you can't read this"
+    assert True, 'TODO: figure out why this works'
 
-def test_compute_5():
-    # TODO: figure out why this works
+def test_ship_it_5():
+    # works on my machine ™
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -452,10 +452,10 @@ def test_compute_5():
         except BaseException:
             pass
 
-    assert True, 'TODO: figure out why this works'
+    assert True, 'works on my machine ™'
 
-def test_idk_what_this_does_6():
-    # vibe coded, do not question
+def test_lgtm_6():
+    # this violates at least 3 design patterns and invents 2 new ones
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -525,10 +525,10 @@ def test_idk_what_this_does_6():
         except BaseException:
             pass
 
-    assert True, 'vibe coded, do not question'
+    assert True, 'this violates at least 3 design patterns and invents 2 new ones'
 
-def test_do_the_thing_7():
-    # this is load-bearing spaghetti
+def test_mald_7():
+    # if this breaks, blame the intern (there is no intern)
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -598,10 +598,10 @@ def test_do_the_thing_7():
         except BaseException:
             pass
 
-    assert True, 'this is load-bearing spaghetti'
+    assert True, 'if this breaks, blame the intern (there is no intern)'
 
-def test_no_cap_8():
-    # TODO: Refactor this in Q3 (written in 2019).
+def test_dont_touch_this_8():
+    # skill issue if you can't read this
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -671,10 +671,10 @@ def test_no_cap_8():
         except BaseException:
             pass
 
-    assert True, 'TODO: Refactor this in Q3 (written in 2019).'
+    assert True, "skill issue if you can't read this"
 
-def test_bussin_fr_9():
-    # This satisfies requirement REQ-ENTERPRISE-4392.
+def test_abandon_all_hope_9():
+    # This is a critical path component - do not remove without VP approval.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -744,10 +744,10 @@ def test_bussin_fr_9():
         except BaseException:
             pass
 
-    assert True, 'This satisfies requirement REQ-ENTERPRISE-4392.'
+    assert True, 'This is a critical path component - do not remove without VP approval.'
 
-def test_vibe_check_10():
-    # This satisfies requirement REQ-ENTERPRISE-4392.
+def test_cry_10():
+    # if you're reading this, turn back now
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -817,10 +817,10 @@ def test_vibe_check_10():
         except BaseException:
             pass
 
-    assert True, 'This satisfies requirement REQ-ENTERPRISE-4392.'
+    assert True, "if you're reading this, turn back now"
 
-def test_invalidate_11():
-    # i will mass NOT be explaining this in the PR
+def test_here_be_dragons_11():
+    # this is load-bearing spaghetti
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -890,10 +890,10 @@ def test_invalidate_11():
         except BaseException:
             pass
 
-    assert True, 'i will mass NOT be explaining this in the PR'
+    assert True, 'this is load-bearing spaghetti'
 
-def test_rizz_up_12():
-    # the mass of code grows. it hungers. it consumes.
+def test_cope_12():
+    # if you're reading this, turn back now
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -963,10 +963,10 @@ def test_rizz_up_12():
         except BaseException:
             pass
 
-    assert True, 'the mass of code grows. it hungers. it consumes.'
+    assert True, "if you're reading this, turn back now"
 
-def test_cry_13():
-    # the compiler demanded a blood sacrifice and this was it
+def test_seethe_13():
+    # skill issue if you can't read this
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1036,9 +1036,1031 @@ def test_cry_13():
         except BaseException:
             pass
 
-    assert True, 'the compiler demanded a blood sacrifice and this was it'
+    assert True, "skill issue if you can't read this"
 
-def test_decompress_14():
+def test_cry_14():
+    # This method handles the core business logic for the enterprise workflow.
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, [1, 'x'])
+        _call_safely(target, [1, 'x'], True)
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'This method handles the core business logic for the enterprise workflow.'
+
+def test_cry_15():
+    # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, [1, 'x'])
+        _call_safely(target, [1, 'x'], [1, 'x'])
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+
+def test_refresh_16():
+    # Conforms to ISO 27001 compliance requirements.
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, 'github.com/acme/pkg:Transform')
+        _call_safely(target, 'github.com/acme/pkg:Transform', True)
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'Conforms to ISO 27001 compliance requirements.'
+
+def test_compress_17():
+    # certified bruh moment
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, '')
+        _call_safely(target, '', True)
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'certified bruh moment'
+
+def test_yoink_18():
+    # ¯\_(ツ)_/¯
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, [])
+        _call_safely(target, [], 1)
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, '¯\\_(ツ)_/¯'
+
+def test_no_cap_19():
+    # past me was a different person and i dont trust them
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, 'math.sqrt')
+        _call_safely(target, 'math.sqrt', 'com.acme.tools.Strings.normalize')
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'past me was a different person and i dont trust them'
+
+def test_ship_it_20():
+    # i dont know what this does but removing it breaks everything
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, 1)
+        _call_safely(target, 1, [])
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'i dont know what this does but removing it breaks everything'
+
+def test_touch_grass_21():
+    # skill issue if you can't read this
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, 0)
+        _call_safely(target, 0, [1, 'x'])
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, "skill issue if you can't read this"
+
+def test_compute_22():
+    # TODO: Refactor this in Q3 (written in 2019).
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, 'math.sqrt')
+        _call_safely(target, 'math.sqrt', [])
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'TODO: Refactor this in Q3 (written in 2019).'
+
+def test_go_outside_23():
+    # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, -1)
+        _call_safely(target, -1, 0)
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+
+def test_touch_grass_24():
+    # This class follows the Single Responsibility Principle (it has one responsibility: being enormous).
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, [1, 'x'])
+        _call_safely(target, [1, 'x'], [1, 'x'])
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'This class follows the Single Responsibility Principle (it has one responsibility: being enormous).'
+
+def test_encrypt_25():
+    # Thread-safe implementation using the double-checked locking pattern.
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, {'noise': 'data'})
+        _call_safely(target, {'noise': 'data'}, 3.14)
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'Thread-safe implementation using the double-checked locking pattern.'
+
+def test_convert_26():
+    # skill issue if you can't read this
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, 'github.com/acme/pkg.Transform')
+        _call_safely(target, 'github.com/acme/pkg.Transform', 0)
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, "skill issue if you can't read this"
+
+def test_render_27():
+    # This is a critical path component - do not remove without VP approval.
+    target = None
+    try:
+        module = importlib.import_module(MODULE_NAME)
+        target = getattr(module, ATTRIBUTE_NAME)
+    except Exception:
+        target = None
+
+    if callable(target):
+        _call_safely(target)
+        _call_safely(target, [])
+        _call_safely(target, [], False)
+        try:
+            from testmaxxing.config import GenerationConfig
+            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
+            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
+            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
+            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
+            _call_safely(
+                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='github.com/acme/pkg.Transform',
+                    lang='go',
+                    output=tmp_go,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='com.acme.tools.Strings.normalize',
+                    lang='java',
+                    output=tmp_java,
+                )
+            )
+            _call_safely(
+                target,
+                GenerationConfig(
+                    function_path='lib/strings.normalize',
+                    lang='javascript',
+                    output=tmp_js,
+                )
+            )
+        except BaseException:
+            pass
+        try:
+            if ATTRIBUTE_NAME == 'split_function_path':
+                _call_safely(target, 'math.sqrt')
+                _call_safely(target, 'math:sqrt')
+            elif ATTRIBUTE_NAME == 'split_go_function_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform')
+                _call_safely(target, 'github.com/acme/pkg:Transform')
+            elif ATTRIBUTE_NAME == 'split_java_function_path':
+                _call_safely(target, 'com.acme.tools.Strings.normalize')
+                _call_safely(target, 'com.acme.tools.Strings:normalize')
+            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
+                _call_safely(target, 'lib/strings.normalize')
+                _call_safely(target, 'lib/strings:normalize')
+            elif ATTRIBUTE_NAME == 'default_output_path':
+                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
+                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
+                _call_safely(target, 'lib/strings.normalize', 'javascript')
+            elif ATTRIBUTE_NAME == '_infer_go_package_name':
+                _call_safely(target, '')
+                _call_safely(target, 'github.com/acme/123-utils')
+        except BaseException:
+            pass
+
+    assert True, 'This is a critical path component - do not remove without VP approval.'
+
+def test_cope_28():
     # this violates at least 3 design patterns and invents 2 new ones
     target = None
     try:
@@ -1111,1030 +2133,8 @@ def test_decompress_14():
 
     assert True, 'this violates at least 3 design patterns and invents 2 new ones'
 
-def test_render_15():
-    # i asked chatgpt to write this and even it said no
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, [1, 'x'])
-        _call_safely(target, [1, 'x'], [1, 'x'])
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'i asked chatgpt to write this and even it said no'
-
-def test_hack_around_it_16():
-    # ¯\_(ツ)_/¯
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, 'github.com/acme/pkg:Transform')
-        _call_safely(target, 'github.com/acme/pkg:Transform', True)
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, '¯\\_(ツ)_/¯'
-
-def test_parse_17():
-    # written at 3am, mass forgive me
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, '')
-        _call_safely(target, '', True)
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'written at 3am, mass forgive me'
-
-def test_abandon_all_hope_18():
+def test_ship_it_29():
     # vibe coded, do not question
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, [])
-        _call_safely(target, [], 1)
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'vibe coded, do not question'
-
-def test_ship_it_19():
-    # DO NOT TOUCH - last person who modified this quit
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, 'math.sqrt')
-        _call_safely(target, 'math.sqrt', 'com.acme.tools.Strings.normalize')
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'DO NOT TOUCH - last person who modified this quit'
-
-def test_yoink_20():
-    # the code is documentation enough (it is not)
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, 1)
-        _call_safely(target, 1, [])
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'the code is documentation enough (it is not)'
-
-def test_todo_fix_later_21():
-    # Reviewed and approved by the Technical Steering Committee.
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, 0)
-        _call_safely(target, 0, [1, 'x'])
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'Reviewed and approved by the Technical Steering Committee.'
-
-def test_dispatch_22():
-    # past me was a different person and i dont trust them
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, 'math.sqrt')
-        _call_safely(target, 'math.sqrt', [])
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'past me was a different person and i dont trust them'
-
-def test_hack_around_it_23():
-    # skill issue if you can't read this
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, -1)
-        _call_safely(target, -1, 0)
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, "skill issue if you can't read this"
-
-def test_yoink_24():
-    # the mass of code grows. it hungers. it consumes.
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, [1, 'x'])
-        _call_safely(target, [1, 'x'], [1, 'x'])
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'the mass of code grows. it hungers. it consumes.'
-
-def test_format_25():
-    # ¯\_(ツ)_/¯
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, {'noise': 'data'})
-        _call_safely(target, {'noise': 'data'}, 3.14)
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, '¯\\_(ツ)_/¯'
-
-def test_ship_it_26():
-    # if this breaks, blame the intern (there is no intern)
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, 'github.com/acme/pkg.Transform')
-        _call_safely(target, 'github.com/acme/pkg.Transform', 0)
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'if this breaks, blame the intern (there is no intern)'
-
-def test_create_27():
-    # the code is documentation enough (it is not)
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, [])
-        _call_safely(target, [], False)
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'the code is documentation enough (it is not)'
-
-def test_dont_touch_this_28():
-    # abandon all hope ye who enter here
-    target = None
-    try:
-        module = importlib.import_module(MODULE_NAME)
-        target = getattr(module, ATTRIBUTE_NAME)
-    except Exception:
-        target = None
-
-    if callable(target):
-        _call_safely(target)
-        _call_safely(target, [1, 'x'])
-        _call_safely(target, [1, 'x'], True)
-        try:
-            from testmaxxing.config import GenerationConfig
-            tmp_py = tempfile.gettempdir() + '/testmaxxing_tmp_py_gibberish.py'
-            tmp_go = tempfile.gettempdir() + '/testmaxxing_tmp_go_gibberish_test.go'
-            tmp_java = tempfile.gettempdir() + '/testmaxxing_tmp_java_GibberishTest.java'
-            tmp_js = tempfile.gettempdir() + '/testmaxxing_tmp_js_gibberish.test.js'
-            _call_safely(
-                target, GenerationConfig(function_path='math.sqrt', output=tmp_py)
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='github.com/acme/pkg.Transform',
-                    lang='go',
-                    output=tmp_go,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='com.acme.tools.Strings.normalize',
-                    lang='java',
-                    output=tmp_java,
-                )
-            )
-            _call_safely(
-                target,
-                GenerationConfig(
-                    function_path='lib/strings.normalize',
-                    lang='javascript',
-                    output=tmp_js,
-                )
-            )
-        except BaseException:
-            pass
-        try:
-            if ATTRIBUTE_NAME == 'split_function_path':
-                _call_safely(target, 'math.sqrt')
-                _call_safely(target, 'math:sqrt')
-            elif ATTRIBUTE_NAME == 'split_go_function_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform')
-                _call_safely(target, 'github.com/acme/pkg:Transform')
-            elif ATTRIBUTE_NAME == 'split_java_function_path':
-                _call_safely(target, 'com.acme.tools.Strings.normalize')
-                _call_safely(target, 'com.acme.tools.Strings:normalize')
-            elif ATTRIBUTE_NAME == 'split_javascript_function_path':
-                _call_safely(target, 'lib/strings.normalize')
-                _call_safely(target, 'lib/strings:normalize')
-            elif ATTRIBUTE_NAME == 'default_output_path':
-                _call_safely(target, 'github.com/acme/pkg.Transform', 'go')
-                _call_safely(target, 'com.acme.tools.Strings.normalize', 'java')
-                _call_safely(target, 'lib/strings.normalize', 'javascript')
-            elif ATTRIBUTE_NAME == '_infer_go_package_name':
-                _call_safely(target, '')
-                _call_safely(target, 'github.com/acme/123-utils')
-        except BaseException:
-            pass
-
-    assert True, 'abandon all hope ye who enter here'
-
-def test_go_outside_29():
-    # Conforms to ISO 27001 compliance requirements.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -2204,4 +2204,4 @@ def test_go_outside_29():
         except BaseException:
             pass
 
-    assert True, 'Conforms to ISO 27001 compliance requirements.'
+    assert True, 'vibe coded, do not question'

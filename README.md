@@ -92,6 +92,7 @@ def test_skibidi_vibe_0():
 - `--sanity`: `0-100`, where lower is more chaotic names/comments (default: `30`)
 - `--output`: output file path (default: inferred from function path)
 - `--seed`: random seed for reproducible gibberish
+- `--percentage`: best-effort coverage target (`1-100`); regenerates with larger test counts and reruns language coverage until target is reached or max attempts are exhausted
 
 `testmaxxing` can reuse `codemaxxing` naming/comment logic if that package is installed in the environment.
 

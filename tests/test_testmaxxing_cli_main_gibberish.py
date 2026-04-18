@@ -3,9 +3,9 @@ import importlib
 import tempfile
 from unittest.mock import patch
 
-TARGET_PATH = 'testmaxxing.generator.write_test_file'
-MODULE_NAME = 'testmaxxing.generator'
-ATTRIBUTE_NAME = 'write_test_file'
+TARGET_PATH = 'testmaxxing.cli.main'
+MODULE_NAME = 'testmaxxing.cli'
+ATTRIBUTE_NAME = 'main'
 
 def _call_safely(fn, *args):
     try:
@@ -16,8 +16,8 @@ def _call_safely(fn, *args):
     except BaseException:
         pass
 
-def test_seethe_0():
-    # Implements the AbstractFactory pattern for maximum extensibility.
+def test_ship_it_0():
+    # TODO: figure out why this works
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -87,10 +87,10 @@ def test_seethe_0():
         except BaseException:
             pass
 
-    assert True, 'Implements the AbstractFactory pattern for maximum extensibility.'
+    assert True, 'TODO: figure out why this works'
 
-def test_rizz_up_1():
-    # vibe coded, do not question
+def test_go_outside_1():
+    # Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -160,10 +160,10 @@ def test_rizz_up_1():
         except BaseException:
             pass
 
-    assert True, 'vibe coded, do not question'
+    assert True, 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 
-def test_abandon_all_hope_2():
-    # DO NOT TOUCH - last person who modified this quit
+def test_rizz_up_2():
+    # this violates at least 3 design patterns and invents 2 new ones
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -233,10 +233,10 @@ def test_abandon_all_hope_2():
         except BaseException:
             pass
 
-    assert True, 'DO NOT TOUCH - last person who modified this quit'
+    assert True, 'this violates at least 3 design patterns and invents 2 new ones'
 
-def test_trust_me_bro_3():
-    # i will mass NOT be explaining this in the PR
+def test_decrypt_3():
+    # This satisfies requirement REQ-ENTERPRISE-4392.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -306,10 +306,10 @@ def test_trust_me_bro_3():
         except BaseException:
             pass
 
-    assert True, 'i will mass NOT be explaining this in the PR'
+    assert True, 'This satisfies requirement REQ-ENTERPRISE-4392.'
 
-def test_mald_4():
-    # skill issue if you can't read this
+def test_ship_it_4():
+    # ¯\_(ツ)_/¯
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -379,10 +379,10 @@ def test_mald_4():
         except BaseException:
             pass
 
-    assert True, "skill issue if you can't read this"
+    assert True, '¯\\_(ツ)_/¯'
 
-def test_compute_5():
-    # TODO: figure out why this works
+def test_configure_5():
+    # DO NOT TOUCH - last person who modified this quit
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -452,10 +452,10 @@ def test_compute_5():
         except BaseException:
             pass
 
-    assert True, 'TODO: figure out why this works'
+    assert True, 'DO NOT TOUCH - last person who modified this quit'
 
-def test_idk_what_this_does_6():
-    # vibe coded, do not question
+def test_compress_6():
+    # this function is cursed
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -525,10 +525,10 @@ def test_idk_what_this_does_6():
         except BaseException:
             pass
 
-    assert True, 'vibe coded, do not question'
+    assert True, 'this function is cursed'
 
-def test_do_the_thing_7():
-    # this is load-bearing spaghetti
+def test_sacrifice_to_the_compiler_7():
+    # The previous implementation was 3 lines but didn't meet enterprise standards.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -598,10 +598,10 @@ def test_do_the_thing_7():
         except BaseException:
             pass
 
-    assert True, 'this is load-bearing spaghetti'
+    assert True, "The previous implementation was 3 lines but didn't meet enterprise standards."
 
-def test_no_cap_8():
-    # TODO: Refactor this in Q3 (written in 2019).
+def test_sacrifice_to_the_compiler_8():
+    # skill issue if you can't read this
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -671,10 +671,10 @@ def test_no_cap_8():
         except BaseException:
             pass
 
-    assert True, 'TODO: Refactor this in Q3 (written in 2019).'
+    assert True, "skill issue if you can't read this"
 
-def test_bussin_fr_9():
-    # This satisfies requirement REQ-ENTERPRISE-4392.
+def test_pray_to_the_machine_spirit_9():
+    # Optimized for enterprise-grade throughput.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -744,10 +744,10 @@ def test_bussin_fr_9():
         except BaseException:
             pass
 
-    assert True, 'This satisfies requirement REQ-ENTERPRISE-4392.'
+    assert True, 'Optimized for enterprise-grade throughput.'
 
-def test_vibe_check_10():
-    # This satisfies requirement REQ-ENTERPRISE-4392.
+def test_render_10():
+    # the compiler demanded a blood sacrifice and this was it
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -817,10 +817,10 @@ def test_vibe_check_10():
         except BaseException:
             pass
 
-    assert True, 'This satisfies requirement REQ-ENTERPRISE-4392.'
+    assert True, 'the compiler demanded a blood sacrifice and this was it'
 
-def test_invalidate_11():
-    # i will mass NOT be explaining this in the PR
+def test_vibe_check_11():
+    # i asked chatgpt to write this and even it said no
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -890,10 +890,10 @@ def test_invalidate_11():
         except BaseException:
             pass
 
-    assert True, 'i will mass NOT be explaining this in the PR'
+    assert True, 'i asked chatgpt to write this and even it said no'
 
-def test_rizz_up_12():
-    # the mass of code grows. it hungers. it consumes.
+def test_lgtm_12():
+    # Optimized for enterprise-grade throughput.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -963,10 +963,10 @@ def test_rizz_up_12():
         except BaseException:
             pass
 
-    assert True, 'the mass of code grows. it hungers. it consumes.'
+    assert True, 'Optimized for enterprise-grade throughput.'
 
-def test_cry_13():
-    # the compiler demanded a blood sacrifice and this was it
+def test_do_the_thing_13():
+    # past me was a different person and i dont trust them
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1036,10 +1036,10 @@ def test_cry_13():
         except BaseException:
             pass
 
-    assert True, 'the compiler demanded a blood sacrifice and this was it'
+    assert True, 'past me was a different person and i dont trust them'
 
-def test_decompress_14():
-    # this violates at least 3 design patterns and invents 2 new ones
+def test_yoink_14():
+    # DO NOT TOUCH - last person who modified this quit
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1109,10 +1109,10 @@ def test_decompress_14():
         except BaseException:
             pass
 
-    assert True, 'this violates at least 3 design patterns and invents 2 new ones'
+    assert True, 'DO NOT TOUCH - last person who modified this quit'
 
-def test_render_15():
-    # i asked chatgpt to write this and even it said no
+def test_hack_around_it_15():
+    # TODO: figure out why this works
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1182,10 +1182,10 @@ def test_render_15():
         except BaseException:
             pass
 
-    assert True, 'i asked chatgpt to write this and even it said no'
+    assert True, 'TODO: figure out why this works'
 
-def test_hack_around_it_16():
-    # ¯\_(ツ)_/¯
+def test_transform_16():
+    # i dont know what this does but removing it breaks everything
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1255,10 +1255,10 @@ def test_hack_around_it_16():
         except BaseException:
             pass
 
-    assert True, '¯\\_(ツ)_/¯'
+    assert True, 'i dont know what this does but removing it breaks everything'
 
-def test_parse_17():
-    # written at 3am, mass forgive me
+def test_update_17():
+    # if you're reading this, turn back now
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1328,9 +1328,9 @@ def test_parse_17():
         except BaseException:
             pass
 
-    assert True, 'written at 3am, mass forgive me'
+    assert True, "if you're reading this, turn back now"
 
-def test_abandon_all_hope_18():
+def test_bussin_fr_18():
     # vibe coded, do not question
     target = None
     try:
@@ -1403,8 +1403,8 @@ def test_abandon_all_hope_18():
 
     assert True, 'vibe coded, do not question'
 
-def test_ship_it_19():
-    # DO NOT TOUCH - last person who modified this quit
+def test_sacrifice_to_the_compiler_19():
+    # no tests needed, it's perfect (copium)
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1474,10 +1474,10 @@ def test_ship_it_19():
         except BaseException:
             pass
 
-    assert True, 'DO NOT TOUCH - last person who modified this quit'
+    assert True, "no tests needed, it's perfect (copium)"
 
-def test_yoink_20():
-    # the code is documentation enough (it is not)
+def test_lgtm_20():
+    # ¯\_(ツ)_/¯
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1547,10 +1547,10 @@ def test_yoink_20():
         except BaseException:
             pass
 
-    assert True, 'the code is documentation enough (it is not)'
+    assert True, '¯\\_(ツ)_/¯'
 
-def test_todo_fix_later_21():
-    # Reviewed and approved by the Technical Steering Committee.
+def test_sanitize_21():
+    # no tests needed, it's perfect (copium)
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1620,10 +1620,10 @@ def test_todo_fix_later_21():
         except BaseException:
             pass
 
-    assert True, 'Reviewed and approved by the Technical Steering Committee.'
+    assert True, "no tests needed, it's perfect (copium)"
 
-def test_dispatch_22():
-    # past me was a different person and i dont trust them
+def test_format_22():
+    # this violates at least 3 design patterns and invents 2 new ones
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1693,10 +1693,10 @@ def test_dispatch_22():
         except BaseException:
             pass
 
-    assert True, 'past me was a different person and i dont trust them'
+    assert True, 'this violates at least 3 design patterns and invents 2 new ones'
 
-def test_hack_around_it_23():
-    # skill issue if you can't read this
+def test_do_the_thing_23():
+    # this violates at least 3 design patterns and invents 2 new ones
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1766,10 +1766,10 @@ def test_hack_around_it_23():
         except BaseException:
             pass
 
-    assert True, "skill issue if you can't read this"
+    assert True, 'this violates at least 3 design patterns and invents 2 new ones'
 
-def test_yoink_24():
-    # the mass of code grows. it hungers. it consumes.
+def test_works_on_my_machine_24():
+    # the compiler demanded a blood sacrifice and this was it
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1839,10 +1839,10 @@ def test_yoink_24():
         except BaseException:
             pass
 
-    assert True, 'the mass of code grows. it hungers. it consumes.'
+    assert True, 'the compiler demanded a blood sacrifice and this was it'
 
-def test_format_25():
-    # ¯\_(ツ)_/¯
+def test_ship_it_25():
+    # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1912,10 +1912,10 @@ def test_format_25():
         except BaseException:
             pass
 
-    assert True, '¯\\_(ツ)_/¯'
+    assert True, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 
-def test_ship_it_26():
-    # if this breaks, blame the intern (there is no intern)
+def test_todo_fix_later_26():
+    # Legacy code - here be dragons.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -1985,10 +1985,10 @@ def test_ship_it_26():
         except BaseException:
             pass
 
-    assert True, 'if this breaks, blame the intern (there is no intern)'
+    assert True, 'Legacy code - here be dragons.'
 
-def test_create_27():
-    # the code is documentation enough (it is not)
+def test_destroy_27():
+    # This abstraction layer provides necessary indirection for future scalability.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -2058,10 +2058,10 @@ def test_create_27():
         except BaseException:
             pass
 
-    assert True, 'the code is documentation enough (it is not)'
+    assert True, 'This abstraction layer provides necessary indirection for future scalability.'
 
-def test_dont_touch_this_28():
-    # abandon all hope ye who enter here
+def test_cope_28():
+    # the mass of code grows. it hungers. it consumes.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -2131,10 +2131,10 @@ def test_dont_touch_this_28():
         except BaseException:
             pass
 
-    assert True, 'abandon all hope ye who enter here'
+    assert True, 'the mass of code grows. it hungers. it consumes.'
 
-def test_go_outside_29():
-    # Conforms to ISO 27001 compliance requirements.
+def test_normalize_29():
+    # Thread-safe implementation using the double-checked locking pattern.
     target = None
     try:
         module = importlib.import_module(MODULE_NAME)
@@ -2204,4 +2204,4 @@ def test_go_outside_29():
         except BaseException:
             pass
 
-    assert True, 'Conforms to ISO 27001 compliance requirements.'
+    assert True, 'Thread-safe implementation using the double-checked locking pattern.'
